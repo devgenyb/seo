@@ -1,13 +1,22 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import 'normalize.css';
 import './index.css';
+import './index.scss';
+import './fonts/museoSans/medium/MuseoSans500.woff';
+import './fonts/museoSans/medium/MuseoSans500.ttf';
+import './fonts/museoSans/bold/MuseoSans700.woff';
+import './fonts/museoSans/bold/MuseoSans700.ttf';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { BrowserRouter } from 'react-router-dom';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <BrowserRouter>
+      <App />
+    </BrowserRouter>
   </React.StrictMode>
 );
 

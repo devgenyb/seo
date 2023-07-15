@@ -1,0 +1,31 @@
+.burger {
+    cursor: pointer;
+    height: 17px;
+    width: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    span {
+        display: block;
+        height: 2px;
+        width: 100%;
+        background-color: $text_links_color;
+        transition: all 100ms linear;
+    }
+}
+
+.active {
+
+    :nth-child(1) {
+        transform: translate(0, 7px) rotate(45deg);
+    }
+
+    :nth-child(2) {
+        display: none;
+    }
+
+    :nth-child(3) {
+        transform: translate(0, -8px) rotate(-45deg);
+    }
+}

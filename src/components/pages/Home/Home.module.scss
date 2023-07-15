@@ -1,0 +1,38 @@
+.header {
+    font-family: MuseoSans sans-serif;
+    font-weight: 700;
+    font-size: 19px;
+    color: $headers_text_color;
+    text-align: center;
+}
+
+.item {
+    text-align: center;
+    margin-bottom: 40px;
+
+    @media screen and (min-width: 767px) {
+        width: calc(100% / 3);
+        display: inline-block;
+    }
+}
+
+.itemImg {
+    vertical-align: middle;
+}
+
+.itemHeader {
+    margin-top: 10px;
+    font-size: 18px;
+    color: $headers_text_color;
+    font-family: MuseoSans sans-serif;
+    font-weight: 700;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.itemDescription {
+    font-size: 15px;
+    color: $secondary_text_color;
+    margin-bottom: 20px;
+    text-align: center;
+}

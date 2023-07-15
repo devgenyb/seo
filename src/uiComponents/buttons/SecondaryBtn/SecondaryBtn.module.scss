@@ -1,0 +1,18 @@
+.btn {
+    font-size: 13px;
+    color: #55554d;
+    background: $btn_secondary_color;
+    box-shadow: 2px 3.464px 9px 0px $secondary_btn_box_shadow_color;
+    border-radius: 15px;
+    padding: 10px 40px;
+    display: inline-block;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    transition: all 100ms linear;
+
+    &:hover {
+        color: $primary_btn_text_color;
+        background-color: $primary_color;
+    }
+}

@@ -1,0 +1,15 @@
+.inp {
+    width: 100%;
+    display: block;
+    margin: 15px auto;
+    border: 0px;
+    text-align: center;
+    font-size: 15px;
+    padding: 20px;
+    border-radius: 10px;
+    outline: none;
+
+    @media screen and (min-width: 767px) {
+        width: 375px;
+    }
+}

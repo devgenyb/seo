@@ -1,0 +1,45 @@
+.footer {
+    background: $footer_background_color;
+    width: 100%;
+    padding: 15px 0px;
+}
+
+.socialIcon {
+    height: 32px;
+    width: 32px;
+    display: inline-block;
+    margin: 0px 10px;
+
+    img {
+        height: 100%;
+        width: 100%;
+    }
+}
+
+.wrapper > div {
+    font-size: 14px;
+    padding: 10px 0;
+    text-align: center;
+    color: $header_text_color;
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+}
+
+.contacts {
+    line-height: 20px;
+    img {
+        height: 16px;
+        width: 16px;
+        margin-right: 10px;
+        display: inline-block;
+        margin-bottom: -3px;
+        
+    }
+    a {
+        font-size: 14px;
+        color: #ffffff;
+    }
+}

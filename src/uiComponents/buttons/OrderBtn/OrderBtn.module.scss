@@ -1,0 +1,27 @@
+.btn {
+    background-color: $primary_color;
+    color: $text_links_color;
+    cursor: pointer;
+    padding: 10px 20px;
+    border-radius: 20px;
+    box-shadow: $btn_shodow_one;
+    font-size: 15px;
+    border: none;
+    outline: none;
+    display: flex;
+    justify-content: center;
+    
+
+    span {
+        display: block;
+    }
+}
+
+.icon {
+    margin-right: 10px;
+}
+
+.text {
+    font-family: MuseoSans sans-serif;
+    font-weight: 500;
+}

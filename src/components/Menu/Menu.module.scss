@@ -1,0 +1,103 @@
+.menu {
+    background-color: $primary_color;
+}
+
+.wrapperDesktop {
+    height: 50px;
+    display: none;
+
+    @media screen and (min-width: 767px) {
+        display: block;
+    }
+
+    .ulistDesk {
+        height: 100%;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        :nth-child(1)::after {
+            display: none;
+        }
+
+        li {
+            &:hover {
+                color: #f3e6ab;
+            }
+        }
+
+        .menuElemDesk {
+            margin-right: 15px;
+            font-family: MouseoSans sans-serif;
+            position: relative;
+            padding-left: 15px;
+
+            &::after {
+                content: "";
+                position: absolute;
+                width: 1px;
+                height: 100%;
+                left: 0;
+                top: 0;
+                background-color: #ff6ea5;
+            }
+
+            
+        }
+    }
+}
+
+.wraperMobile {
+
+    @media screen and (min-width: 767px) {
+        display: none;
+    }
+}
+
+.innerMobile {
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 40px;
+}
+
+.menuText {
+    font-family: MouseoSans sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    color: $primary_btn_text_color;
+}
+
+.list {
+    transition: all 300ms;
+    overflow: hidden;
+}
+
+.active {
+    height: max-content;
+}
+
+.ulist {
+    padding: 0;
+    padding-left: 40px;
+    padding-bottom: 10px;
+    margin: 0;
+    color: $primary_btn_text_color;
+}
+
+.menuElem {
+    margin-bottom: 15px;
+}
+
+.active {
+    color: #f3e6ab;
+    cursor: default;
+}
+
+.enactive {
+    color: $primary_btn_text_color;
+    cursor: pointer;
+}

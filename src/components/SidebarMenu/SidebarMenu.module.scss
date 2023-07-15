@@ -1,0 +1,77 @@
+.sidebar {
+    min-height: 190px;
+    padding: 50px;
+    max-width: 720px;
+    border-radius: 18px;
+    margin: 0 auto;
+    margin-top: 30px;
+    box-shadow: -1.256px 17.956px 18px 0px rgba(215, 54, 114, 0.1);
+    background: $header_text_color;
+    overflow: hidden;
+}
+
+.text {
+    text-align: center;
+    color: $primary_color;
+    font-size: 18px;
+    font-family: MuseoSans sans-serif;
+    font-weight: 700;
+}
+
+.navItemImg {
+    background-color: aqua;
+}
+
+.icon {
+    height: 50px;
+    width: 50px;
+    margin: 15px auto 5px auto;
+    background-color: $primary_color;
+}
+
+.link {
+    &:hover {
+        color: $primary_color;
+        .icon {
+            background-blend-mode: lighten;
+        }
+    }
+}
+
+.items {
+    overflow: hidden;
+
+    @media screen and (min-width: 990px) {
+        height: max-content;
+    }
+}
+
+.sidebarBtn {
+    margin-top: 20px;
+    text-align: center;
+
+    @media screen and (min-width: 990px) {
+        display: none;
+    }
+}
+
+.navbarItem {
+    margin-top: 20px;
+    width: 50%;
+    display: inline-block;
+    text-align: center;
+    vertical-align: top;
+    cursor: pointer;
+
+    @media screen and (min-width: 767px) {
+        width: 25%;
+    }
+
+    @media screen and (min-width: 990px) {
+        width: 100%;
+
+        &:nth-child(1) {
+            margin-top: 0px;
+        }
+    }
+}
