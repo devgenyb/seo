@@ -49,6 +49,20 @@ export function FeedbackModal({show, onClose}) {
         };
     }, [])
 
+    useEffect(() => {
+        function escHandle(e) {
+            if (e.key === "Escape" && showModal) {
+                close();
+            }
+        }
+
+        document.addEventListener('keydown', escHandle);
+
+        return () => {
+            document.removeEventListener('keydown', escHandle);
+        }
+    }, [showModal])
+
     const [name, setName] = useState("");
     const [phone, setPhone] = useState("");
     const [submitForm, setSubmitForm] = useState(false);
@@ -69,15 +83,13 @@ export function FeedbackModal({show, onClose}) {
     return (
             <>
             {show && createPortal(
-                <div className={[styles.modal, showModal && styles.showModal].join(' ')}  
-
-                >
+                <div className={[styles.modal, showModal && styles.showModal].join(' ')}>
                     <div className={styles.overlay}>
                         <div className={styles.content} ref={contentBlock}>
                             <div className={styles.closer} onClick={close}>✖</div>
                             <div className={styles.modalHeader}>Оставить заявку</div>
                             <div className={styles.modalBody}>
-                            {!submitForm &&                            <form onSubmit={submitHandle}>
+                            {!submitForm && <form onSubmit={submitHandle}>
                                 <LargeInput placeholder={"Имя *"} value={name} setValue={(val) => setName(val)} options={{required: true}}/>
                                 <LargeInput placeholder={"Номер телефона *"} value={phone} setValue={(val) => setPhone(val)} options={{required: true}}/>
                                 <div className={styles.description}>* Все данные надежно защищены и не передаются третьим лицам</div>

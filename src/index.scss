@@ -38,3 +38,72 @@ a {
     width: 100%;
 }
 
+.common_header {
+    font-family: MuseoSans sans-serif;
+    font-weight: 700;
+    margin-top: 25px;
+    margin-bottom: 18px;
+    color: $primary_color;
+}
+
+.common_title {
+    color: $primary_color;
+    margin-top: 50px;
+}
+
+.common_about {
+    p {
+        font-size: 15px;
+        line-height: 1.6em;
+        margin: 0 0 10px;
+    }
+}
+
+
+.common_imageBlock {
+    margin-left: -7.5px;
+    img {
+        display: inline-block;
+        padding-right: 7.5px;
+        padding-left: 7.5px;
+        max-width: 350px;
+        width: 33%;
+    }
+}
+
+.common_video {
+    height: 230px;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.common_list {
+
+    ul {
+        list-style: circle;
+    }
+
+    li {
+        font-family: inherit;
+        margin: 15px 0;
+        font-size: 15px;
+        line-height: 1.6em;
+    }
+}
+
+.common_link {
+    font-family: "MuseoSansBold";
+    color: #ff3a84;
+    text-decoration: underline;
+}
+.std_table {
+    td {
+        padding: 5px 10px;
+        border: 1px solid;
+        font-size: 15px;
+    }
+}
+
+.bold_text {
+    font-weight: bold;
+}

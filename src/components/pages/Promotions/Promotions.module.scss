@@ -1,0 +1,37 @@
+.header {
+    font-family: MuseoSans sans-serif;
+    font-weight: 700;
+    margin-top: 25px;
+    margin-bottom: 18px;
+    color: $primary_color;
+}
+
+.title {
+    color: $primary_color;
+    margin-top: 50px;
+}
+
+.about {
+    font-size: 15px;
+    line-height: 1.6em;
+    margin: 0 0 10px;
+}
+
+.imageBlock {
+    :nth-child(1) {
+        padding-left: 0px;
+    }
+    img {
+        display: inline-block;
+        padding-right: 7.5px;
+        padding-left: 7.5px;
+        max-width: 350px;
+        width: 33%;
+    }
+}
+
+.video {
+    height: 230px;
+    max-width: 400px;
+    margin: 0 auto;
+}

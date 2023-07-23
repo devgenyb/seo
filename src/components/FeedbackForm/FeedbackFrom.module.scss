@@ -1,0 +1,138 @@
+.header {
+    color: $primary_color;
+    font-size: 20px;
+}
+
+.inputs {
+    display: flex;
+    justify-content: space-between;
+
+
+    @media screen and (max-width: 700px) {
+        flex-direction: column;
+    }
+
+    div {
+        width: 47%;
+
+        @media screen and (max-width: 700px) {
+            width: 100%;
+            &:nth-child(2) {
+                margin-top: 20px;
+            }
+        }
+    }
+}
+
+.area {
+    margin-top: 30px;
+}
+
+.captcha {
+    margin: 20px 0;
+}
+
+.subheader {
+    margin-top: 60px;
+}
+
+.reviev_header {
+    font-size: 16px;
+    color: #262622;
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+
+.rewievBlock {
+    padding: 20px;
+    border-radius: 25px;
+    margin-bottom: 30px;
+    min-height: 182px;
+}
+
+.itemContent {
+    padding-top: 20px;
+    text-align: center;
+}
+
+
+
+.itemHeader {
+    font-size: 16px;
+    color: #262622;
+    margin-bottom: 10px;
+    font-weight: 700;
+    margin-bottom: 20px;
+
+    @media screen and (min-width: 900px) {
+        text-align: left;
+    }
+}
+
+.itemText {
+    font-family: "MuseoSansRegular";
+    font-size: 15px;
+    color: #262622;
+    text-align: center;
+
+    @media screen and (min-width: 900px) {
+        text-align: left;
+    }
+}
+
+.readMore {
+    font-family: "MuseoSansRegular";
+    font-size: 15px;
+    color: #eb246f;
+    text-decoration: underline;
+    cursor: pointer;
+    white-space: nowrap;
+
+    &:hover {
+        text-decoration: none;
+    }
+}
+
+
+.rewievBlock {
+    margin: 30px 0px;
+    width: 100%;
+
+
+    @media screen and (min-width: 767px) {
+        margin: 0px;
+    }
+
+    @media screen and (min-width: 900px) {
+        display: flex;
+    }
+}
+
+.avatar {
+    height: 128px;
+    text-align: center;
+    margin-right: 30px;
+    img {
+        border-radius: 50%;
+        height: 100%;
+    }
+}
+
+.showAll {
+    text-align: center;
+    margin-top: 60px;
+
+    a {
+        font-family: "MuseoSansRegular";
+        font-size: 15px;
+        color: #eb246f;
+        text-decoration: underline;
+        display: block;
+        margin-top: 35px;
+        cursor: pointer;
+
+        &:hover {
+            text-decoration: none;
+        }
+    }
+}

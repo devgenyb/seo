@@ -1,0 +1,24 @@
+.feedback {
+    background-color: $backdrop_color;
+    text-align: center;
+    padding: 20px;
+
+}
+
+.title {
+    line-height: 1.42;
+    font-family: MuseoSans sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+
+}
+
+.subtitle {
+    font-size: 18px;
+    font-family: MuseoSans;
+}
+
+.desc {
+    font-size: 14px;
+}

@@ -6,6 +6,8 @@ import FotoService from "../FotoService";
 import Footer from "../Footer";
 import WeBetter from "../WeBetter";
 import { YandexMap } from "../YandexMap/YandexMap";
+import Feedback from "../Feedback";
+import RewievsShow from "../RewievsShow";
 
 export function Layout() {
 
@@ -25,23 +27,29 @@ export function Layout() {
             </div>
             </div>
             {location.pathname === '/' && 
-            <div className={styles.fotoservice}>
-                <FotoService />
-            </div>
-            }
-
-
-            {location.pathname === '/' && 
-            <div className={styles.weBetter}>
-                <WeBetter />
-            </div>
-            }
-
-            {location.pathname === '/' && 
+            <div>
+                <div className={styles.fotoservice}>
+                    <FotoService />
+                </div>
+                <div className={styles.weBetter}>
+                    <WeBetter />
+                </div>
+                <div className={styles.rewiewShow}>
+                    <RewievsShow />
+                </div>
                 <div className={styles.map}>
                     <YandexMap />
                 </div>
+            </div>
             }
+
+
+            {location.pathname !== '/' && 
+                <div className={styles.feedback}>
+                    <Feedback />
+                </div>
+            }
+
 
             <Footer />
         </>

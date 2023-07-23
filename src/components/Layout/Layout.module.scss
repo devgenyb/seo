@@ -1,8 +1,10 @@
 .sidebar {
     width: 100%;
 
+
     @media screen and (min-width: 990px) {
         width: 25%;
+        margin-bottom: 80px;
     }
 }
 
@@ -30,4 +32,8 @@
     @media screen and (min-width: 767px) {
         height: 400px;
     }
+}
+
+.rewiewShow {
+    margin-bottom: 50px;
 }

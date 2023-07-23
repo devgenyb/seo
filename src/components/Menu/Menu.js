@@ -25,7 +25,7 @@ export function Menu({ data }) {
                 </div>
                 <div className={styles.list} style={{height: active ? 240 + 'px' : 0 + 'px'}}>
                     <ul className={styles.ulist} ref={menuList}>
-                        {data.map((elem) => <li className={styles.menuElem} key={elem.path}><a>{elem.name}</a></li>)}
+                        {data.map((elem) => <NavLink to={elem.path} className={({isActive}) => isActive ? styles.active : styles.enactive} key={elem.path + "burger"}><li onClick={(e) => {setActive(false)}} className={styles.menuElem} key={elem.path}>{elem.name}</li></NavLink>)}
                     </ul>
                 </div>
                 </div>

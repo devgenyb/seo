@@ -1,0 +1,21 @@
+.input_wrapper {
+
+}
+
+.label {
+    margin-bottom: 15px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.inp {
+    width: 100%;
+    display: block;
+    border: 0px;
+    font-size: 15px;
+    padding: 20px;
+    border-radius: 10px;
+    outline: none;
+    background-color: $ui_secondary_background;
+    box-shadow: inset 0px 1px 3px 0px rgba(0, 0, 0, 0.15);
+}
