@@ -75,6 +75,37 @@ export const sidebar = [
     },
 ]
 
+export const links = {
+    about: {
+        path: "about",
+        name: "О компании",
+    },
+    akczii: {
+        path: "/akczii",
+        name: "Акции",
+    },
+    price: {
+        path: "/price",
+        name: "Прайс-лист",
+    },
+    comments: {
+        path: "/comments",
+        name: "Отзывы",
+    },
+    animators: {
+        path: "/animators",
+        name: "Аниматоры",
+    },
+    job: {
+        path: "/job",
+        name: "Вакансии",
+    },
+    contacts: {
+        path: "/contacts",
+        name: "Контакты",
+    },
+}
+
 export const better = [
     {
         img: "main-page_advantages_01.png",
