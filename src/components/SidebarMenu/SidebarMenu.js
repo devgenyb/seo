@@ -2,6 +2,7 @@ import styles from "./SidebarMenu.module.scss";
 import { sidebar } from "../../data";
 import PrimaryBtn from "../../uiComponents/buttons/PrimaryBtn";
 import { useEffect, useLayoutEffect, useRef, useState } from "react";
+import { Link } from "react-router-dom";
 
 export function SidebarMenu() {
 
@@ -70,7 +71,7 @@ export function SidebarMenu() {
             </h2>
             <div className={styles.itemsWrapper}>
                 <div className={styles.items} ref={itemsBlock}>
-                    {sidebar.map(item => <NavbarItem key={item.name} text={item.name} image={"/assest/images/sidebar/" + item.image} />)}
+                    {sidebar.map(item => <NavbarItem key={item.name} link={item.link} text={item.name} image={"/assest/images/sidebar/" + item.image} />)}
                 </div>
                 <div className={styles.sidebarBtn}>
                 <PrimaryBtn size={"small"} action={() => setActive(!active)}>{!active ? 'Развернуть' : 'Свернуть'}</PrimaryBtn>
@@ -81,16 +82,16 @@ export function SidebarMenu() {
     )
 }
 
-function NavbarItem({text, image}) {
+function NavbarItem({text, image, link}) {
 
     return (
         <div className={styles.navbarItem}>
-            <a className={styles.link}>
+            <Link to={link} className={styles.link}>
             <div className={styles.icon} style={{
                 backgroundImage: `url(${image})`
             }} />
             <div>{text}</div>
-            </a>
+            </Link>
         </div>
     )
 }

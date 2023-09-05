@@ -4,7 +4,7 @@ export function Navigator() {
 
     return (
         <div className={styles.wrapper}>
-
+            
         </div>
     )
 }

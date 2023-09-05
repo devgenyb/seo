@@ -11,6 +11,7 @@ import { Rewieves } from './components/pages/Rewieves/Rewieves';
 import Animators from './components/pages/Animators';
 import Job from './components/pages/Job';
 import Contacts from './components/pages/Contacts';
+import VipParty from './components/VipParty';
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
             <Route path='/animators' element={<Animators />} />
             <Route path='/job' element={<Job />} />
             <Route path='/contacts' element={<Contacts />} />
+            <Route path='/vip-varty' element={<VipParty />} />
         </Route>
       </Routes>
     </div>

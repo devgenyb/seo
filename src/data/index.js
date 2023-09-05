@@ -35,7 +35,8 @@ export const sidebar = [
     },
     {
         name: "VIP PARTY",
-        image: "sidebar_menu_item-vip.png"
+        image: "sidebar_menu_item-vip.png",
+        link: "vip-varty",
     },
     {
         name: "Детские праздники",
