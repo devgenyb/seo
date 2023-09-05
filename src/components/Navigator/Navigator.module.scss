@@ -1,0 +1,27 @@
+.wrapper {
+    font-size: 14px;
+}
+
+.dynlink {
+    color: $primary_color;
+}
+
+.topline {
+    display: flex;
+}
+
+.seporator {
+    margin: 0 10px;
+}
+
+.bottomLine {
+    margin-top: 20px;
+}
+
+.staticLink {
+    a {
+        color: #000;
+        text-decoration: underline;
+        cursor: pointer;
+    }
+}

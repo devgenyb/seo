@@ -8,6 +8,7 @@ import WeBetter from "../WeBetter";
 import { YandexMap } from "../YandexMap/YandexMap";
 import Feedback from "../Feedback";
 import RewievsShow from "../RewievsShow";
+import Navigator from "../Navigator";
 
 export function Layout() {
 
@@ -22,6 +23,11 @@ export function Layout() {
                     <SidebarMenu />
                 </div>
                 <div className={styles.content}>
+                    {location.pathname !== '/' && 
+                    <div className={styles.navigator}>
+                        <Navigator />
+                    </div>
+                    }
                     <Outlet />
                 </div>
             </div>
