@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/seo/static/css/main.e062d283.css",
+    "main.js": "/seo/static/js/main.413cbebd.js",
+    "static/js/787.adff95d2.chunk.js": "/seo/static/js/787.adff95d2.chunk.js",
+    "static/media/main-page_slider_05.jpg": "/seo/static/media/main-page_slider_05.cfa98c1cff56fdc0483f.jpg",
+    "static/media/main-page_slider_04.jpg": "/seo/static/media/main-page_slider_04.77701cec0f063ca00f9f.jpg",
+    "static/media/header_bg.png": "/seo/static/media/header_bg.a5abad787bfa7d75f8b8.png",
+    "static/media/MuseoSans.ttf": "/seo/static/media/MuseoSans.b89d2aed072b957f2e03.ttf",
+    "static/media/MuseoSans500.ttf": "/seo/static/media/MuseoSans500.4a7ab6cebbb2ceac67d4.ttf",
+    "static/media/MuseoSans700.ttf": "/seo/static/media/MuseoSans700.d517f62e41d9a4dab324.ttf",
+    "static/media/MuseoSans500.woff": "/seo/static/media/MuseoSans500.8cd656174445150d19cc.woff",
+    "static/media/MuseoSans700.woff": "/seo/static/media/MuseoSans700.0d5cb4ec8ac2a9f30484.woff",
+    "static/media/MuseoSans.woff": "/seo/static/media/MuseoSans.397ed770be641d6e6bf1.woff",
+    "static/media/header_mail-icon.png": "/seo/static/media/header_mail-icon.9aecf4d2bdd1214fe632.png",
+    "static/media/header_phone-icon.png": "/seo/static/media/header_phone-icon.c8141ec8ba5f318f3325.png",
+    "static/media/main-page_slider_controls_backward.png": "/seo/static/media/main-page_slider_controls_backward.52bc6610d80b342a0213.png",
+    "static/media/main-page_slider_controls_forward.png": "/seo/static/media/main-page_slider_controls_forward.fb6e8498d8a8593eed9a.png",
+    "static/media/order-button_phone-icon.png": "/seo/static/media/order-button_phone-icon.c4ea66d4bf94fa7e2c5d.png",
+    "index.html": "/seo/index.html",
+    "main.e062d283.css.map": "/seo/static/css/main.e062d283.css.map",
+    "main.413cbebd.js.map": "/seo/static/js/main.413cbebd.js.map",
+    "787.adff95d2.chunk.js.map": "/seo/static/js/787.adff95d2.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e062d283.css",
+    "static/js/main.413cbebd.js"
+  ]
+}
