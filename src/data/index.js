@@ -36,7 +36,7 @@ export const sidebar = [
     {
         name: "VIP PARTY",
         image: "sidebar_menu_item-vip.png",
-        link: "vip-varty",
+        link: "vipParty",
     },
     {
         name: "Детские праздники",
@@ -104,6 +104,22 @@ export const links = {
     contacts: {
         path: "/contacts",
         name: "Контакты",
+    },
+    vipParty: {
+        path: "/vipParty",
+        name: "Vip party",
+    },
+    childparty: {
+        path: "childparty",
+        name: "Вечеринки для детей",
+    },
+    teenParty: {
+        path: "teenParty",
+        name: "VIP PARTY для подростков"
+    },
+    oldparty: {
+        path: "oldparty",
+        name: "VIP PARTY для взрослых",
     },
 }
 

@@ -5,3 +5,30 @@
     margin-bottom: 10px;
     line-height: 1.42857143;
 }
+
+.item {
+    margin-bottom: 20px;
+    display: block;    
+    width: 100%;
+    @media screen and (min-width: 700px) {
+        width: 50%;
+    }
+
+}
+
+.itemImage {
+    margin-right: 10px;
+}
+
+.content {
+
+    a {
+        display: flex;
+        align-items: center;
+        color: black;
+        width: max-content;
+    }
+
+    display: flex;
+    flex-wrap: wrap;
+}

@@ -8,9 +8,11 @@ export function Navigator() {
     const navigate = useNavigate();
     const pathes = location.pathname.matchAll('[A-z0-9]{1,}');
     
+    console.log('links: ', links);
  
     const loflinks = [];
     while (true) {
+        // debugger
         const tmp = pathes.next();
         if (tmp.done) break;
         loflinks.push(links[tmp.value[0]]);
@@ -23,7 +25,7 @@ export function Navigator() {
             <div className={styles.navigator}>
                 <div className={styles.topline}>
                     <div className={styles.staticLink}><Link to={"/"}>Главгая</Link><span className={styles.seporator}>/</span></div>
-                    {loflinks.map(item => <div className={styles.dynlink} key={item.name}><Link to={item.href}>{item.name}</Link><span className={styles.seporator}>/</span></div>)}
+                    {loflinks.map(item => <div className={styles.dynlink} key={item.name}><Link to={item.path}>{item.name}</Link><span className={styles.seporator}>/</span></div>)}
                     {last.name && <div className={styles.dynlink}>{last.name}</div>}
                 </div>
                 <div className={[styles.bottomLine, styles.staticLink].join(' ')}>
