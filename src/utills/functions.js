@@ -22,7 +22,7 @@ export function getRandomInt(min, max) {
 export function sliceText(text, countOfChars) {
     // обрезает текст до последнего предыдущего пробела
     for (let i = countOfChars; i > 0; i--) {
-        if (text[i] == " ") {
+        if (text[i] === " ") {
             text = text.slice(0, i);
             break;
         }
