@@ -32,6 +32,8 @@ jobs:
 
     - name: Build
       run: npm run build
+      env:
+        CI: ""
 
     - name: install SSH key
       uses: shimataro/ssh-key-action@v2
