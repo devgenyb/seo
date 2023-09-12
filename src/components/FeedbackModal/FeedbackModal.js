@@ -5,6 +5,8 @@ import LargeInput from "../../uiComponents/LargeInput";
 import { PrimaryBtn } from "../../uiComponents/buttons/PrimaryBtn/PrimaryBtn";
 
 
+const ym = window.ym;
+
 export function FeedbackModal({show, onClose}) {
 
     const [showModal, setShowModal] = useState(false);
@@ -93,7 +95,7 @@ export function FeedbackModal({show, onClose}) {
                                 <LargeInput placeholder={"Имя *"} value={name} setValue={(val) => setName(val)} options={{required: true}}/>
                                 <LargeInput placeholder={"Номер телефона *"} value={phone} setValue={(val) => setPhone(val)} options={{required: true}}/>
                                 <div className={styles.description}>* Все данные надежно защищены и не передаются третьим лицам</div>
-                                <div className={styles.submitBtn}><PrimaryBtn action={() => ym(94907076,'reachGoal','call order')} size={'middle'} options={{type: 'submit'}}>Заказать</PrimaryBtn></div>
+                                <div className={styles.submitBtn}><PrimaryBtn action={() => ym(94924196,'reachGoal','order')} size={'middle'} options={{type: 'submit'}}>Заказать</PrimaryBtn></div>
                                 </form>}
                             {submitForm &&
                                 <div className={styles.submitText}>Благодарим за ваше обращение. <br /> Менеджер свяжется с Вами в ближайшее время</div>
