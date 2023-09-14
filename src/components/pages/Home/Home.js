@@ -12,7 +12,7 @@ export function Home() {
         <div className={styles.header}>
         <h1>Организация праздников и мероприятий</h1>
         <h2>
-          Мы поможем вам организовать праздники любого уровня в Нижнем Новгороде и Нижегородской области, а также мероприятия городского масштаба в городах: Муроме, Владимире, Москве
+          Event агенство - Организация праздников. Мы поможем вам организовать праздники любого уровня в Нижнем Новгороде и Нижегородской области, а также мероприятия городского масштаба в городах: Муроме, Владимире, Москве
         </h2>
         {/* текст для сео */}
         <div>
@@ -36,7 +36,7 @@ function Item({data}) {
         <div className={styles.item}>
                <img className={styles.itemImg} src={data.img} alt={data.title} />
                <div className={styles.itemHeader}>{data.title}</div>
-               <div className={styles.itemDescription}>{data.description}</div>
+               <div className={styles.itemDescription}>{data.alt}</div>
                <SecondaryBtn>Подробнее</SecondaryBtn>
         </div>
     )
