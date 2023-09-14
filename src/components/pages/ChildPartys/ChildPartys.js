@@ -9,7 +9,7 @@ export function ChildPartys() {
 
     return (
         <div className={styles.commonChildParty}>
-            <h1 className="common_header">VIP PARTY для детей</h1>
+            <h1 className="common_header">Организация детских праздников</h1>
             <p>Хотите устроить по-настоящему грандиозный праздник для своего ребенка? Праздник, о котором мечтает ваш принц или принцесса, но не знаете, с чего начать и к кому обратиться?</p>
             <iframe style={{width: "400px", height: "220px"}} src="https://www.youtube.com/embed/diHOYalADIM?si=0A-ioPJPP8uSCuOz" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
             <p>Проведение масштабных программ под силу не каждой студии, но агентство праздников PARTY STARS ® обладает всем необходимым опытом, чтобы браться за воплощение самых смелых идей. За годы существования мы провели сотни программ класса VIP для детей от 0 до 12 лет, что позволило нам стать настоящими экспертами в области детских праздников с бюджетом свыше 50 000 рублей.</p>
@@ -26,9 +26,9 @@ export function ChildPartys() {
                 </ul>
             </div>
             <div className="common_imageBlock">
-                <img src="/assest/images/childPartys/page_977_gallery_image_01.jpg" alt="Фото детского праздника" />
-                <img src="/assest/images/childPartys/page_977_gallery_image_02.jpg" alt="Фото детского праздника" />
-                <img src="/assest/images/childPartys/page_977_gallery_image_03.jpg" alt="Фото детского праздника" />
+                <img src="/assest/images/childPartys/page_977_gallery_image_01.jpg" alt="lego" />
+                <img src="/assest/images/childPartys/page_977_gallery_image_02.jpg" alt="ребенок" />
+                <img src="/assest/images/childPartys/page_977_gallery_image_03.jpg" alt="счастливая мать" />
             </div>
 
             <h3 className="common_title">Что входит в VIP вечеринку для детей</h3>
@@ -50,8 +50,8 @@ export function ChildPartys() {
                 </ul>
             </div>
             <div className="common_imageBlock">
-                <img src="/assest/images/childPartys/page_977_gallery_image_06.jpg" alt="Фото детского праздника" />
-                <img src="/assest/images/childPartys/page_977_gallery_image_07.jpg" alt="Фото детского праздника" />
+                <img src="/assest/images/childPartys/page_977_gallery_image_06.jpg" alt="русалка" />
+                <img src="/assest/images/childPartys/page_977_gallery_image_07.jpg" alt="нарисованая русалка" />
             </div>
 
             <h3 className="common_title">Наши клиенты всегда могут дополнить программу, заказав:</h3>
@@ -70,9 +70,9 @@ export function ChildPartys() {
                 </ul>
             </div>
             <div className="common_imageBlock">
-                <img src="/assest/images/childPartys/page_977_gallery_image_04.jpg" alt="Фото детского праздника" />
-                <img src="/assest/images/childPartys/page_977_gallery_image_05.jpg" alt="Фото детского праздника" />
-                <img src="/assest/images/childPartys/page_977_gallery_image_10.jpg" alt="Фото детского праздника" />
+                <img src="/assest/images/childPartys/page_977_gallery_image_04.jpg" alt="железный человек" />
+                <img src="/assest/images/childPartys/page_977_gallery_image_05.jpg" alt="стрельба из пушки" />
+                <img src="/assest/images/childPartys/page_977_gallery_image_10.jpg" alt="деньги" />
             </div>
             <h3 className="common_title">Сколько стоит заказать вечеринку для детей</h3>
             <p>

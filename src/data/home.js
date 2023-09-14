@@ -2,7 +2,7 @@ export default [
     {
         img: "/assest/images/home/main-page_content_item-18.3494ef81481ff449f679cacb36fa40d8.png",
         title: "Выпускной",
-        description: "йцук",
+        description: "Знаменательное событие в жизни каждого ребенка и родителя",
         path: "vyipusknoj"
     },
     {
@@ -14,25 +14,25 @@ export default [
     {
         img: "/assest/images/home/main-page_content_item-20.3494ef81481ff449f679cacb36fa40d8.png",
         title: "Новый год",
-        description: "ячсм",
+        description: "Знаменательное событие в жизни каждого ребенка и родителя",
         path: "novyij-god"
     },
     {
         img: "/assest/images/home/main-page_content_item-21.3494ef81481ff449f679cacb36fa40d8.png",
         title: "Промо мероприятия",
-        description: "фывавафы",
+        description: "Знаменательное событие в жизни каждого ребенка и родителя",
         path: "promo-meropriyatiya"
     },
     {
         img: "/assest/images/home/main-page_content_item-22.3494ef81481ff449f679cacb36fa40d8.png",
         title: "Корпоратив",
-        description: "ячсмцукцу",
+        description: "Знаменательное событие в жизни каждого ребенка и родителя",
         path: "korporativ"
     },
     {
         img: "/assest/images/home/main-page_content_item-23.3494ef81481ff449f679cacb36fa40d8.png",
         title: "Свадьба",
-        description: "джаовщовап",
+        description: "Знаменательное событие в жизни каждого ребенка и родителя",
         path: "svadba"
     },
 ]

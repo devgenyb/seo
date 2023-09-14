@@ -24,8 +24,8 @@ export function OldParty() {
                 В Агентстве праздников PARTY STARS ® работают только с самые лучшие ведущие Нижнего Новгорода. Наши ведущие - известные нижегородские шоу-мэны (Илья Березин, Иван Гронский, Юрий Григорьев, Сергей Попов...) А также вы всегда найдете у нас молодых талантливых ведущих, уже зарекомендовавших себя в этом качестве. Вы можете быть уверены, что у нас найдется самое оптимальное предложение для праздничного события и самое лучшее соотношение цены и качества.
             </p>
             <div className="common_imageBlock">
-                <img src="/assest/images/oldParty/page_22_gallery_image_01.jpg" alt="Фото детского праздника" />
-                <img src="/assest/images/oldParty/page_22_gallery_image_03.jpg" alt="Фото детского праздника" />
+                <img src="/assest/images/oldParty/page_22_gallery_image_01.jpg" alt="счастливые люди" />
+                <img src="/assest/images/oldParty/page_22_gallery_image_03.jpg" alt="салют" />
             </div>
             <h3 className="common_title">Организация корпоративов под ключ</h3>
             <p>
@@ -42,26 +42,26 @@ export function OldParty() {
             Самые эффектные яркие программы для своего торжества Вы всегда найдете в Агентстве праздников PARTY STARS ®. Наши артисты обладают неоценимым опытом, умениями и профессионализмом и всегда готовы дарить свое мастерство гостям праздника. Наш главный принцип - качество и оперативность, поэтому вы можете быть уверены, что в самые короткие сроки мы сможем организовать корпоратив или юбилей кампании на высочайшем уровне! Для вас: файер шоу, светодиодное шоу, научное шоу, разнообразные танцевальные, музыкальные и вокальные шоу программы, африканский Дед мороз и Снегурочка, серпантинное шоу, фейерверки и салюты. По вашему желанию мы пригласим Звезду эстрады на торжество!
             </p>
             <div className="common_imageBlock">
-                <img src="/assest/images/oldParty/page_22_gallery_image_02.jpg" alt="Фото детского праздника" />
-                <img src="/assest/images/oldParty/page_22_gallery_image_04.jpg" alt="Фото детского праздника" />
-                <img src="/assest/images/oldParty/page_22_gallery_image_05.jpg" alt="Фото детского праздника" />
+                <img src="/assest/images/oldParty/page_22_gallery_image_02.jpg" alt="фаершоу" />
+                <img src="/assest/images/oldParty/page_22_gallery_image_04.jpg" alt="тоже фаершоу" />
+                <img src="/assest/images/oldParty/page_22_gallery_image_05.jpg" alt="африканцы" />
             </div>
             <h3 className="common_title">Цыганские коллективы на торжество</h3>
             <p>
             Какой праздник, Свадьба или корпоратив обойдется без удалого цыганского веселья? Агентство праздников PARTY STARS ® предложит Вам лучшие цыганские коллективы, цыганские танцевально-музыкальные ансамбли.
             </p>
             <div className="common_imageBlock">
-                <img src="/assest/images/oldParty/page_22_gallery_image_06.jpg" alt="Фото детского праздника" />
-                <img src="/assest/images/oldParty/page_22_gallery_image_07.jpg" alt="Фото детского праздника" />
-                <img src="/assest/images/oldParty/page_22_gallery_image_08.jpg" alt="Фото детского праздника" />
+                <img src="/assest/images/oldParty/page_22_gallery_image_06.jpg" alt="цыгане" />
+                <img src="/assest/images/oldParty/page_22_gallery_image_07.jpg" alt="цыгане крутятся" />
+                <img src="/assest/images/oldParty/page_22_gallery_image_08.jpg" alt="не знаю" />
             </div>
             <h3 className="common_title">Фото и видео операторы на корпоратив</h3>
             <p>
             Выездные фотосессии для корпоративной съемки. Услуги костюмерной (более 50 образов), профессиональных фотографов и выездная фотостудия - от 15 000 руб.! Для незабываемой фотосессии мы готовы предложить профессиональных стилистов, парикмахеров и визажистов, выездную костюмерную для корпоративных и частных фотосессий как в Нижнем Новгороде, так и с выездом в Нижегородскую область.
             </p>
             <div className="common_imageBlock">
-                <img src="/assest/images/oldParty/page_22_gallery_image_10.jpg" alt="Фото детского праздника" />
-                <img src="/assest/images/oldParty/page_22_gallery_image_11.jpg" alt="Фото детского праздника" />
+                <img src="/assest/images/oldParty/page_22_gallery_image_10.jpg" alt="выпивает" />
+                <img src="/assest/images/oldParty/page_22_gallery_image_11.jpg" alt="скрипачка" />
             </div>
             <p>
             Сделать оригинальный подарок и на славу удивить своих гостей можно, пригласив наших ростовых кукол на корпоратив или торжество. Очаровательные ростовые куклы: Сердце, Мишка, танцующий Слоник Долли, Пингвин Яша или Микки Маус придут с букетом из шаров и устроят на вечеринке настоящий шум, гам, та-та-рам с заводной музыкой, уморительными конкурсами и настоящим салютом из шаров!
