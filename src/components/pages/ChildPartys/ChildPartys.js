@@ -13,16 +13,16 @@ export function ChildPartys() {
             <p>Хотите устроить по-настоящему грандиозный праздник для своего ребенка? Праздник, о котором мечтает ваш принц или принцесса, но не знаете, с чего начать и к кому обратиться?</p>
             <iframe style={{width: "400px", height: "220px"}} src="https://www.youtube.com/embed/diHOYalADIM?si=0A-ioPJPP8uSCuOz" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
             <p>Проведение масштабных программ под силу не каждой студии, но агентство праздников PARTY STARS ® обладает всем необходимым опытом, чтобы браться за воплощение самых смелых идей. За годы существования мы провели сотни программ класса VIP для детей от 0 до 12 лет, что позволило нам стать настоящими экспертами в области детских праздников с бюджетом свыше 50 000 рублей.</p>
-            <h3 className="common_title">Какие VIP PARTY мы проводим для детей</h3>
+            <h3 className="common_title">Какие PARTY мы проводим для детей</h3>
             <div className="common_list">
                 <ul>
-                    <li>Звездная вечеринка «PARTY STARS ® VIP»</li>
-                    <li>Галактическая вечеринка «PARTY Star Wars VIP»</li>
-                    <li>Супергеройская вечеринка «PARTY Superhero VIP»</li>
-                    <li>Вечеринка принцесс «PARTY VIP princesses»</li>
-                    <li>Вечеринка супер конструкторов «Lego PARTY VIP»</li>
-                    <li>Вечеринка настоящих гениев «PARTY Genius VIP»</li>
-                    <li>Вечеринка реалити шоу «PARTY SHOWS VIP»</li>
+                    <li>Звездная вечеринка STARS ®»</li>
+                    <li>Галактическая вечеринка «Star Wars»</li>
+                    <li>Супергеройская вечеринка «Superhero»</li>
+                    <li>Вечеринка принцесс «princesses»</li>
+                    <li>Вечеринка супер конструкторов «Lego»</li>
+                    <li>Вечеринка настоящих гениев «Genius»</li>
+                    <li>Вечеринка реалити шоу «SHOWS»</li>
                 </ul>
             </div>
             <div className="common_imageBlock">
@@ -74,9 +74,9 @@ export function ChildPartys() {
                 <img src="/assest/images/childPartys/page_977_gallery_image_05.jpg" alt="Фото детского праздника" />
                 <img src="/assest/images/childPartys/page_977_gallery_image_10.jpg" alt="Фото детского праздника" />
             </div>
-            <h3 className="common_title">Сколько стоит заказать VIP вечеринку для детей</h3>
+            <h3 className="common_title">Сколько стоит заказать вечеринку для детей</h3>
             <p>
-            Агентство праздников PARTY STARS ® может предложить вам несколько уровней по стоимость организации и проведения детского дня рождения класса VIP:
+            Агентство праздников PARTY STARS ® может предложить вам несколько уровней по стоимость организации и проведения детского дня рождения высокого класса:
             </p>
             <div className="common_list">
                 <ul>
