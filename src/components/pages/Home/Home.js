@@ -34,9 +34,9 @@ function Item({data}) {
 
     return (
         <div className={styles.item}>
-               <img className={styles.itemImg} src={data.img} alt={data.title} />
+               <img className={styles.itemImg} src={data.img} alt={data.alt} />
                <div className={styles.itemHeader}>{data.title}</div>
-               <div className={styles.itemDescription}>{data.alt}</div>
+               <div className={styles.itemDescription}>{data.description}</div>
                <SecondaryBtn>Подробнее</SecondaryBtn>
         </div>
     )
