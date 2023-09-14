@@ -6,5 +6,6 @@ export default function Title({component, title}) {
         document.title = title;
     }, [title])
 
+
     return component;
 }

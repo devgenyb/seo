@@ -85,7 +85,7 @@ export function SidebarMenu() {
 function NavbarItem({text, image, link}) {
 
     return (
-        <div className={styles.navbarItem}>
+        <div className={styles.navbarItem} onClick={() => window.scrollTo(0, 0)}>
             <Link to={link} className={styles.link}>
             <div className={styles.icon} style={{
                 backgroundImage: `url(${image})`

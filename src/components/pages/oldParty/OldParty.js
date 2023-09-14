@@ -12,7 +12,8 @@ export function OldParty() {
         <div className={styles.commonOldParty}>
             <h1 className="common_header">Корпоратив</h1>
             <p>
-                Агентство праздников PARTY STARS ® подарит Вам самые яркие незабываемые впечатления от Вашего Торжества, Юбилея, корпоратива компании или частного праздника. Мы предложим вам множество вариантов сценариев тематических корпоративов и вечеринок, а также готовы разработать индивидуальный сценарий вашего мероприятия и сделать его действительно неповторимым. Работайте с профессионалами!
+                Агентство праздников PARTY STARS ® имеет богатый опыт в организации мероприятий подарит Вам самые яркие незабываемые впечатления от Вашего Торжества, Юбилея, корпоратива компании, новогоднего корпоратива или частного праздника. Мы предложим вам множество вариантов сценариев тематических корпоративов и вечеринок, а также готовы разработать индивидуальный сценарий вашего мероприятия и сделать его действительно неповторимым. Работайте с профессионалами!
+                Так же организуем корпоративные квесты по желанию закасчика.
             </p>
             <iframe style={{width: "400px", height: "220px"}} src="https://www.youtube.com/embed/diHOYalADIM?si=T5QS5rhnYQROlbXj" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
             <iframe style={{width: "400px", height: "220px"}} src="https://www.youtube.com/embed/b6JiP-PlopI?si=AQ_p2iPTMp-W7xAO" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
